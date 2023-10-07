@@ -38,3 +38,19 @@ nav a {
     padding: 5px 10px;
     border-radius: 5px;
 }
+/* ... o código CSS anterior ... */
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+/* ... o resto do código CSS ... */
