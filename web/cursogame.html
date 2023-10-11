@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Perguntas do Git</title>
+    <link rel="stylesheet" href="stylegame.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Perguntas do Git</h1>
+        <p class="question" id="question">Pergunta 1: O que é o Git?</p>
+        <div class="options">
+            <button id="optionA" onclick="checkAnswer('A')">A. Um sistema de controle de versão</button>
+            <button id="optionB" onclick="checkAnswer('B')">B. Um navegador da web</button>
+            <button id="optionC" onclick="checkAnswer('C')">C. Um processador de texto</button>
+        </div>
+        <p id="result"></p>
+        <p>Pontuação: <span id="score">0</span></p>
+    </div>
+    <script src="scriptgame.js"></script>
+</body>
+</html>
