@@ -26,6 +26,9 @@ nav ul {
     display: flex;
 }
 
+main {
+    background-color: #d9d9d9;
+}
 nav li {
     margin-right: 20px;
 }
