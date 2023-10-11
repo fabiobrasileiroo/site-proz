@@ -38,13 +38,19 @@ nav a {
     color: white;
 }
 
+
 .area-estudante {
-    background-color: #FF6600;
+    background-color: #009cd5;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    
 }
-
+.area-estudante > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold ;
+}
 .mobile-menu {
     display: none;
     position: fixed;
